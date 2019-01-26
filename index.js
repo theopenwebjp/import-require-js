@@ -50,6 +50,10 @@ function isURL (string) {
 
 function forceCommonJSEnvironment () {
   window.exports = {} // Force reset.
+  if(typeof window.module !== 'object'){
+    window.module = {}
+  }
+  window.module.exports = window.exports
 }
 
 // Comment out below to use as normal script
