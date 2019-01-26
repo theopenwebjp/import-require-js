@@ -1,0 +1,16 @@
+{
+  "name": "import-require-js",
+  "version": "1.0.0",
+  "description": "Synchronous import require js using es6 imports",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "Damien Golding",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^3.0.1",
+    "requirejs": "^2.3.6"
+  }
+}
