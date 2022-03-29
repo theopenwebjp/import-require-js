@@ -11,10 +11,16 @@ Synchronous require using es6 imports.
 
 ## Usage
 
+```bash
+npm install @theopenweb/import-require-js
+```
+
 module:
 
 ```javascript
-import require from "./index.js"
+// import require from "./index.js"
+// import require from 'node_modules/@theopenweb/import-require-js/index.js'
+import require from '@theopenweb/import-require-js'
 ```
 
 script:
@@ -47,5 +53,11 @@ This is similar to how it is implemented in this library.
 This library has only been made to support what is needed.
 There are some features that should be added but has not been yet.
 If you find something that should be added, please create a detailed issue.
+
+Areas that could be impoved:
+
+- Allowing for async handling, especially in nested libraries.
+- Support for other library URL resolution(bower_component, etc.), local files, etc.
+- Not include dependencies? Currently mustache(used for example) and require(might become needed).
 
 Regards.

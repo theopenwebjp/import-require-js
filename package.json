@@ -1,14 +1,26 @@
 {
-  "name": "import-require-js",
+  "name": "@theopenweb/import-require-js",
   "version": "1.0.0",
   "description": "Synchronous import require js using es6 imports",
   "main": "index.js",
   "scripts": {
     
   },
-  "keywords": [],
-  "author": "Damien Golding",
   "license": "MIT",
+  "keywords": ["require", "requirejs", "sync", "synchronous", "commonjs", "module.exports", "exports", "cjs", "import"],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/theopenwebjp/import-require-js.git"
+  },
+  "author": "The Open Web <noreply@theopenweb.jp> (https://theopenweb.jp)",
+  "contributors": [
+      "Damien Golding <noreply@damiengolding.com> (https://damiengolding.com)"
+  ],
+  "homepage": "https://theopenweb.info",
+  "bugs": {
+      "url": "https://github.com/theopenwebjp/import-require-js/issues"
+  },
+  "private": false,
   "dependencies": {
     "mustache": "^3.0.1",
     "requirejs": "^2.3.6"
