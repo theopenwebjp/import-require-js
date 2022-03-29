@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <title>Import Require JS</title>
         <!--<script src="index.js"></script>-->
         <script type="module" id="script">
             import require from "./index.js"
@@ -8,7 +11,7 @@
             console.log(require)
             window.mustache = require('mustache')
             // const mustache = require('./node_modules/mustache/mustache.min.js')
-            console.log(window.mustache)
+            console.log({ 'window.mustache': window.mustache })
 
             window.addEventListener('load', function(){
                 let html = `
@@ -25,7 +28,7 @@
         </script>
     </head>
     <body>
-        <h1></h1>
+        <h1>Import Require JS</h1>
         <div>
             <div>Mustache object will be required synchronously on load and output the name and version below.</div>
             <div>※Make sure to do npm install first.</div>
